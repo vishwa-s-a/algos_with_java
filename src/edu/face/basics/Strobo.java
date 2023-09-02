@@ -25,10 +25,12 @@ public class Strobo {
     public static void main(String args[])
     {
         String input;
-        input="69";
+        input="108";
         Boolean result=strobo(input);
         if(result==true)
         System.out.println("Its a Strobo");
+        else
+        System.out.println("not a strobo");
     }
     
 }

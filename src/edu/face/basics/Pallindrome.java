@@ -15,7 +15,7 @@ public class Pallindrome {
         return reversed==original;
     }
     public static void main(String args[]) {
-        int x=51;
+        int x=17;
         if(pallindrome(x))
         {
             System.out.println("It is a binary Pallindrome");
